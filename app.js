@@ -7,5 +7,5 @@ function randomRGB(){
 
 const letters = document.querySelector('h1')
 const intervalId = setInterval(function(){
-    letters.style.color = randomRGB;
+    letters.style.color = randomRGB();
 }, 2000);
